@@ -1,0 +1,279 @@
+body{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	background-image: url("flag2.png");
+         background-repeat:no-repeat;
+         background-attachment:fixed;
+         background-position:top;
+         background-size: auto;
+         z-index: 1;
+}
+
+.main{
+	float: left;
+	width: 100%;
+	height: 1300px;
+	background: white;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 50%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 50%);
+    cursor: default;
+}
+
+.main-inf{
+	margin: 10px;
+	position: relative;
+	height: 70px;
+	width: 550px;
+	border-bottom: 2px solid black;
+	opacity: 0;
+	cursor: default;
+}
+
+@keyframes animaciyaq{
+	from{left: 0px;opacity: 0;}
+	to{left: 120px;opacity: 1;}
+}
+@keyframes animaciyaw{
+	from{left: 0px;opacity: 0;}
+	to{left: 120px;opacity: 1;}
+}
+@keyframes animaciyae{
+	from{left: 0px;opacity: 0;}
+	to{left: 120px;opacity: 1;}
+}
+@keyframes animaciyar{
+	from{left: 0px; opacity:0;}
+	to{left: 120px; opacity:1;}
+}
+
+@keyframes hidde{
+	from{display: none;}
+	to{display: block;}
+}
+
+.font-raleway{
+	font-family: 'Raleway', sans-serif;
+}
+.font-montserrat{
+	font-family: 'Montserrat', sans-serif;
+}
+.font-poiretone{
+	font-family: 'Poiret One', cursive;
+}
+
+
+.logo{
+     -moz-animation: logo 6s  alternate;
+     -webkit-animation: logo 6s  alternate;
+     animation-fill-mode:forwards;
+}
+
+@keyframes logo{
+	from{filter: grayscale(100%);}
+	to{filter: grayscale(0%);}
+}
+
+.main-inf2{
+	height: 170px;
+	width: 720px;
+	float: right;
+	cursor: default;
+}
+
+.main-body{
+	margin-top: -500px;
+	float: left;
+	width: 100%;
+	height: auto;
+	background: white;
+   /*-webkit-clip-path: polygon(0% 0%, 100% 40%, 100% 100%, 0% 100%);*/
+   clip-path: polygon(0% 0%, 100% 40%, 100% 100%, 0% 100%);
+}
+.main-work{
+	margin-top: 100px;
+	height: calc(auto + 100px);
+	width: 100%;
+	background: white;
+	float: left;
+	cursor: default;
+}
+
+.block{
+	margin: 10px;
+	position: relative;
+	height: auto;
+	width: 500px;
+	/*border-bottom: 2px solid black;*/
+	opacity: 0;
+	cursor: default;
+}
+
+.work-block{
+	height: auto;
+	width: 25%;
+	margin: 10px;
+	float: left;
+ 	/*background: grey;*/
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Poiret One', sans-serif;
+	border: 2px solid black;
+}
+
+.work-block:hover{
+	filter: grayscale(100%);
+	cursor: default;
+}
+
+.justify-center{
+	justify-content: center;
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
+.work-work{
+	height: auto;
+	width: 100%;
+}
+
+.auct{
+    height: auto;
+    width: 23%;
+    text-align: center;
+    margin:10px;	 
+    float:left;
+}
+.auct:hover{
+	filter: grayscale(100%);
+	cursor: pointer;
+}
+
+.footer{
+	width: 100%;
+	height: auto;
+	margin-top: 200px;
+	background:white;
+	float: left;
+}
+
+.footer-1{
+	width: 50%;
+	border-right: 2px solid black ;
+	height: auto;
+	float: left;
+}
+.footer-2{
+	width: 49%;
+	height: auto;
+	float: left;
+}
+
+.contact-1{
+	background: red;
+	width: 300px;
+	height: 50px;
+	margin: 10px;
+    margin-left: 25%;
+}
+
+.column{
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.phone{
+	background: red;
+	list-style-image: url(phone.png);
+	height: 60px;
+	font-size: 20px;
+	font-family: 'Poiret One', sans-serif;
+	width: 200px;
+}
+
+
+ li{
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Poiret One', sans-serif;
+    margin-top: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.num{
+color: white;
+background: url(phone.png);
+display: inline-block;	
+margin: -2px 10px 0px 10px;
+width: 30px;
+height: 30px;
+font-size: 30px;
+font-family: 'Poiret One', sans-serif;
+cursor: default;
+}
+
+.soc{
+color: white;
+display: inline-block;
+float: left;	
+margin: 3px 5px;
+width: 30px;
+height: 30px;
+font-size: 30px;
+font-family: 'Poiret One', sans-serif;
+background: red;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<div class="footer-1">
+	      <div align="center" >
+           <ol>
+             <li style="cursor: default;"><span class="num"></span> 380967514509 </li>
+             <li style="cursor: default;"><span class="num"></span> 380979133190 </li>
+             <li style="cursor: default;"><span class="num"></span> 380661251958 </li>
+            </ol>
+           </div>
+	</div>
+    
+	<div class="footer-2">
+	    <div>
+           <ol>
+             <a href=""><li><span class="soc" style="background: url(img/instagram1.png);"></span> @usa_auto_in_rivne </li></a>
+             <a href="https://www.facebook.com/usaautoinrivne/" target="_blank"><li><span class="soc" style="background: url(img/fcebook1.png);"></span> @usaautoinrivne </li></a>
+             <a href=""><li><span class="soc" style="background: url(img/gmail.png);"></span> usaautoinrivne@gmail.com </li></a>
+            </ol>
+           </div>
+	</div>
+*/
