@@ -12,11 +12,9 @@ body{
 .main{
 	float: left;
 	width: 100%;
-	height: 1300px;
+	height: 800px;
 	background: white;
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 50%);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 50%);
-    cursor: default;
+        cursor: default;
 }
 
 .main-inf{
@@ -76,7 +74,6 @@ body{
 .main-inf2{
 	height: 170px;
 	width: 720px;
-	float: right;
 	cursor: default;
 }
 
@@ -86,8 +83,7 @@ body{
 	width: 100%;
 	height: auto;
 	background: white;
-        -webkit-clip-path: polygon(0% 0%, 100% 60%, 100% 100%, 0% 100%);
-       clip-path: polygon(0% 0%, 100% 60%, 100% 100%, 0% 100%);
+
 }
 .main-work{
 	margin-top: 100px;
@@ -182,6 +178,7 @@ body{
 	justify-content: flex-start;
 	align-items: flex-end;
 }
+
 
 a {
 	text-decoration: none;
